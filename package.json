@@ -1,0 +1,9 @@
+{
+    "urls": [
+      ["LED_Func.py", "github:leelin59/mip_LED_Blink/LED_Func.py"],
+      ["../LED閃爍範例.py", "github:leelin59/mip_LED_Blink/LED_main.py"]
+    ],
+    "deps": [
+    ],
+    "version": "0.1"
+}
