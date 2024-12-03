@@ -1,17 +1,19 @@
 import time
 
-def LedNo(LedPin = None, Timer = 1):
+def LedNo(LedPin = None, Interval = 1):
     if LedPin is None:
         print("LedPin is None")
         return
     LedPin.value(1)
-    time.sleep(Timer)
+    print("Led is ON")
+    time.sleep(Interval)
     return
 
-def LedOff(LedPin = None, Timer = 1):
+def LedOff(LedPin = None, Interval = 1):
     if LedPin is None:
         print("LedPin is None")
         return
     LedPin.value(0)
-    time.sleep(Timer)
+    print("Led is OFF")
+    time.sleep(Interval)
     return
