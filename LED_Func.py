@@ -1,6 +1,6 @@
 import time
 
-def LedNo(LedPin = None, Interval = 1):
+def LedOn(LedPin = None, Interval = 1):
     if LedPin is None:
         print("LedPin is None")
         return
